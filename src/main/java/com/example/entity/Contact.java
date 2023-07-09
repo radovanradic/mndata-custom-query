@@ -8,7 +8,7 @@ import io.micronaut.data.annotation.Relation;
 import java.util.ArrayList;
 import java.util.List;
 
-@MappedEntity(schema = "my_schema")
+@MappedEntity
 public class Contact {
 
     @Id
